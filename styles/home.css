@@ -1,5 +1,19 @@
+body {
+    width: 900px;
+    margin: 0 auto;
+}
 nav img {
     width: 20px;
     height: 20px;
 }
 
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+
+header {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
