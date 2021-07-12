@@ -1,16 +1,25 @@
 body {
-    width: 900px;
+    max-width: 901px;
     margin: 0 auto;
 }
 nav img {
     width: 20px;
     height: 20px;
+    margin-left: 3px;
+}
+
+nav img:nth-child(7){
+    margin-left: 10px;
 }
 
 h2 {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
     font-size: 2.5em;
+}
+h4 {
+    font-size: .7em;
+    margin-top: -6px;
 }
 
 header {
@@ -19,7 +28,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     flex-flow: wrap;
-    height: 100px;
+    height: 55px;
     margin-top: 40px;
 }
 
@@ -27,6 +36,7 @@ header {
     margin-top: 10px;
     width: 45px;
     height: 45px;
+    margin-right: 5px;
 }
 
 #header-left {
@@ -34,4 +44,14 @@ header {
     flex-direction: row;
     flex-flow: wrap;
     width: 350px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#border {
+    border-image: url("./assets/hr-img.png");
+    border-image-repeat: repeat;
 }
