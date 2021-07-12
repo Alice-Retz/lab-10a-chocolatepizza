@@ -15,17 +15,27 @@ nav img:nth-child(7){
 #choco-pizza {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
+    flex-flow: wrap;
+    align-items: flex-end;
 }
 
 h1 {
     font-size: 2.5em;
+    font-weight: bolder;
 }
 
 h2 {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
     font-size: 2.5em;
+}
+h3 {
+    font-size: .9em;
+    color: grey;
+    text-transform: uppercase;
+    margin-top: -3px;
+    margin-bottom: 30px;
 }
 h4 {
     font-size: .7em;
@@ -62,11 +72,6 @@ nav {
     align-items: center;
 }
 
-/* #border {
-    
-    border: 8px solid black;
-} */
-
 .border {
     height: 13px;
     background-image: url("../assets/hr-img.png");
@@ -74,4 +79,9 @@ nav {
     border: 4px;
     width: 901px;
     margin: 30px 0 30px 0;
+}
+#recipe {
+    background-image: url("../assets/list-bg.png");
+    height: 305px;
+    width: 899px;
 }
