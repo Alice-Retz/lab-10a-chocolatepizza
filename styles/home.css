@@ -12,6 +12,16 @@ nav img:nth-child(7){
     margin-left: 10px;
 }
 
+#choco-pizza {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
 h2 {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
@@ -51,7 +61,17 @@ nav {
     flex-direction: row;
     align-items: center;
 }
-#border {
-    border-image: url("./assets/hr-img.png");
+
+/* #border {
+    
+    border: 8px solid black;
+} */
+
+.border {
+    height: 13px;
+    background-image: url("../assets/hr-img.png");
     border-image-repeat: repeat;
+    border: 4px;
+    width: 901px;
+    margin: 30px 0 30px 0;
 }
