@@ -91,6 +91,7 @@ article {
     justify-content: space-evenly;
     flex-flow: wrap;
     align-items: flex-end;
+    margin-bottom: 80px;
 }
 
 .border {
@@ -120,4 +121,18 @@ article {
 
 footer {
     height: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: grey;
+}
+
+footer img {
+    margin-left: 50%;
+}
+
+hr {
+    color: grey;
+    margin-bottom: -20px;
 }
