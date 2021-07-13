@@ -42,6 +42,13 @@ h4 {
     margin-top: -6px;
 }
 
+p {
+    text-indent: 20px;
+    font-family: serif;
+    font-size: 1.2em;
+    
+}
+
 header {
     width: 900px;
     display: flex;
@@ -84,4 +91,15 @@ nav {
     background-image: url("../assets/list-bg.png");
     height: 305px;
     width: 899px;
+}
+
+#recipe section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+#test {
+    display: flex;
+    flex-direction: row;
 }
