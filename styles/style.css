@@ -51,12 +51,12 @@ body {
     justify-content: flex-end;
 } */
 
-footer {
+/* footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
-}
+} */
 
 
 h2 {
